@@ -1,40 +1,37 @@
 baseURL = "https://example.com"
-title = "Your Website Title"
-languageCode = "en-us"
+title = "um sitezinho"
+languageCode = "pt-BR"
 theme = "devise"
 relativeURLs = true
 enableEmoji = true
-googleAnalytics = ""
 enableRobotsTXT = true
-copyright = "&copy; Copyright Year, Your Name"
 
 # Main menu items
 [menu]
   [[menu.main]]
-    identifier = "about"
-    name = "About"
-    title = "About"
-    url = "/about/"
+    identifier = "sobre"
+    name = "sobre"
+    title = "sobre"
+    url = "/sobre/"
     weight = -110
   [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    title = "Posts"
-    url = "/post/"
+    identifier = "letras"
+    name = "letras"
+    title = "letras"
+    url = "/letras/"
     weight = -100
   [[menu.main]]
-    identifier = "categories"
-    name = "Categories"
-    title = "Categories"
-    url = "/categories/"
+    identifier = "imagens"
+    name = "imagens"
+    title = "imagens"
+    url = "/imagens/"
     weight = -90
 
 # Configuration Features
 [params]
-  description = "Your meta description"      # Your meta description of the site
-  header_title = "Your Name"                 # Your header title
-  header_subtitle = "Your Creative Subtitle" # Your header subtitle
-  home_image = "/images/avatar.png"          # Path to header image starting from the static directory (optional)
+  description = "um sitezinho"      # Your meta description of the site
+  header_title = "um sitezinho"                 # Your header title
+  header_subtitle = "um espacinho na internet" # Your header subtitle
   recent_posts = 5                           # Max amount of recent posts to show
   mainSections = ["posts", "post", "blog"]   # Main sections to include in recent posts
   [params.style]                             # CSS style overrides
@@ -42,15 +39,3 @@ copyright = "&copy; Copyright Year, Your Name"
     homeImageBorderColor = "#ffffff"
     fontFamilyBase = "Helvetica Neue"        # First-choice font
     fontColor = "#212529"
-  [[params.social]]
-    fa_icon = "fab fa-github fa-1x"          # Font Awesome icon class
-    href = "http://github.com/youruser"      # Link to associate with icon (http://, https://, mailto:)
-  [[params.social]]
-    fa_icon = "fab fa-linkedin-in fa-1x"
-    href = ""
-  [[params.social]]
-    fa_icon = "fab fa-twitter fa-1x"
-    href = ""
-  [[params.social]]
-    fa_icon = "fas fa-at fa-1x"
-    href = ""
