@@ -1,1 +1,6 @@
+# Ignorar pasta gerada pelo Hugo
 public/
+
+# Ignorar cache de build
+resources/_gen/
+.hugo_build.lock
